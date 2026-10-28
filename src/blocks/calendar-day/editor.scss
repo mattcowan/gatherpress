@@ -194,10 +194,3 @@
 	}
 }
 
-/* Lock Layout UI in Inspector & Toolbar when Ribbon style is selected */
-body:has(.gatherpress-calendar__day.is-style-ribbon.is-selected) .block-editor-block-inspector .components-panel__body:has(.block-editor-hooks__layout-controls),
-body:has(.gatherpress-calendar__day.is-style-ribbon.is-selected) .block-editor-block-toolbar .components-toolbar-group:has([aria-label*="Justification"]),
-body:has(.gatherpress-calendar__day.is-style-ribbon .is-selected) .block-editor-block-inspector .components-panel__body:has(.block-editor-hooks__layout-controls),
-body:has(.gatherpress-calendar__day.is-style-ribbon .is-selected) .block-editor-block-toolbar .components-toolbar-group:has([aria-label*="Justification"]) {
-	display: none !important;
-}
